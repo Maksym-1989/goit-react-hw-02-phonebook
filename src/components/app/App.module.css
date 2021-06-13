@@ -1,0 +1,9 @@
+.container {
+  width: 500px;
+  min-height: 350px;
+  margin: 30px auto;
+  border: 1px solid gray;
+  border-radius: 14px;
+  padding: 10px;
+  background-color: honeydew;
+}
