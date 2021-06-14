@@ -62,7 +62,7 @@ class App extends Component {
           <ContactForm addContact={this.addContact} />
         </Section>
         <Section title="Contacts">
-          {this.state.contacts.length === 0 ? (
+          {!this.state.contacts.length ? (
             <></>
           ) : (
             <>
